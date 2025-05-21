@@ -29,9 +29,6 @@ public class ProdutoApplicationTest {
         Assertions.assertTrue(productService.save(product));
     }
 
-
-
-
     //Deve remover a imagem corretamente.
     @Test
     public void testRemoverImagemNoService(){
