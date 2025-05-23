@@ -26,7 +26,6 @@ public class ProdutoApplicationTest {
         Mockito.when(productService.save(product)).thenReturn(true);
         productApplication.append(product);
         Mockito.verify(productService, Mockito.times(1)).save(product);
-        Assertions.assertTrue(productService.save(product));
     }
 
     //Deve remover a imagem corretamente.
